@@ -11,10 +11,10 @@ jobs:
       - name: Create Archive Release
         uses: thedoctor0/zip-release@master
         with:
-          filename: 'xpd-pack.zip'
+          filename: 'pack.zip'
           exclusions: '*.git* /docs/ LICENSE'
       - name: Upload Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: 'xpd-pack.zip'
+          artifacts: 'minolio-pack.zip'
           token: ${{ secrets.GITHUB_TOKEN }}
