@@ -11,7 +11,7 @@ jobs:
       - name: Create Archive Release
         uses: thedoctor0/zip-release@master
         with:
-          filename: 'pack.zip'
+          filename: 'minolio-pack.zip'
           exclusions: '*.git* /docs/ LICENSE'
       - name: Upload Release
         uses: ncipollo/release-action@v1
