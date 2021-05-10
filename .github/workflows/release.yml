@@ -12,7 +12,7 @@ jobs:
         uses: thedoctor0/zip-release@master
         with:
           filename: 'xpd-pack.zip'
-          exclusions: '*.git* /docs/'
+          exclusions: '*.git* /docs/ LICENSE'
       - name: Upload Release
         uses: ncipollo/release-action@v1
         with:
