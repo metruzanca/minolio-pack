@@ -16,5 +16,5 @@ jobs:
       - name: Upload Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: 'xpd-pack.zip'
+          artifacts: 'minolio-pack.zip'
           token: ${{ secrets.GITHUB_TOKEN }}
