@@ -9,4 +9,7 @@
 
 ## Features
 - Menu wallpaper
-- Neonblocks from [Better Vanilla Building](https://www.curseforge.com/minecraft/texture-packs/bettervanillabuilding)
+- From [Better Vanilla Building](https://www.curseforge.com/minecraft/texture-packs/bettervanillabuilding):
+  - Neonblocks
+  - Colored Lamps
+  - Black Planks
